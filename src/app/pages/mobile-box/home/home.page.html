@@ -1,17 +1,22 @@
 <ion-content [scrollEvents]="true" (ionScroll)="onScroll($event)" class="page">
   <div class="page">
     <div class="header-container">
-      <img src="../../assets/image/forestGradient.png" width="1920px" height="1280px" class="header-image-main">
+      <img src="../../assets/image/forestGradient.webp" alt="alte handys entsorgen" width="1920px" height="1280px"
+           class="header-image-main">
       <div class="header-title-container">
         <p class="header-title"><b>200 Millionen alte Handys in <br>
           Deutschland sind unsere Mission.</b></p>
-        <p class="header-text desktop-version">Bis Ende 2025 wollen wir 1 Millionen dieser Geräte umweltgerecht verwerten. <br> Leiste deinen persönlichen Beitrag zum Umweltschutz, indem Du uns deine
+        <p class="header-text desktop-version">Bis Ende 2025 wollen wir 1 Millionen dieser Geräte umweltgerecht
+          verwerten. <br> Leiste deinen persönlichen Beitrag zum Umweltschutz, indem Du deine
           alten Handys spendest<br> oder in deiner Stadt eine Handy-Sammelaktion startest.</p>
 
-        <p class="header-text only-on-mobile">Bis Ende 2025 wollen wir 1 Millionen dieser Geräte umweltgerecht verwerten. <br> Leiste deinen persönlichen Beitrag zum Umweltschutz!</p>
+        <p class="header-text only-on-mobile">Bis Ende 2025 wollen wir 1 Millionen dieser Geräte umweltgerecht
+          verwerten. <br> Leiste deinen persönlichen Beitrag zum Umweltschutz!</p>
         <ion-row>
-            <h1 class="header-title-button" (click)="onMenu('handys-spenden')">ALTE HANDYS SPENDEN</h1>
-            <h1 class="header-title-button-white" (click)="onMenu('handys-spenden')">SAMMELAKTION STARTEN</h1>
+          <div class="header-button-container">
+            <h1 class="header-title-button" (click)="onMenu('handys-spenden')">ALTE HANDYS ENTSORGEN</h1>
+            <h4 class="header-title-button-white" (click)="onMenu('handys-spenden')">HANDY SAMMLUNG STARTEN</h4>
+          </div>
         </ion-row>
 
       </div>
